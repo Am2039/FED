@@ -61,7 +61,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   1. Het is belangrijk om echt goed te luisteren naar wat de screen-reader zegt, anders mis je welke knoppen je moet inklikken om verder te gaan naar een ander scherm of op een knop te klikken. Vaak zijn de combinaties van de toetsen verschillend per interactie.
 
-  2. De
+  2. Onderin bij de pagina van Rockstar Games kun je een taal aankiezen. Er is een keuze uit 13 talen voor de pagina. Eenmaal bij taal 13 was het voor mij lastig te begrijpen hoe je uit de tab kon om een taal te kiezen.
 
 
 </details>
