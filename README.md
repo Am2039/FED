@@ -59,9 +59,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
-  1. Het is belangrijk om echt goed te luisteren naar wat de screen-reader zegt, anders mis je welke knoppen je moet inklikken om verder te gaan naar een ander scherm of op een knop te klikken. Vaak zijn de combinaties van de toetsen verschillend per interactie.
+  1. Het is belangrijk om echt goed te luisteren naar wat de screen-reader zegt, anders mis je welke knoppen je moet inklikken om verder te gaan naar een ander scherm of op een knop te klikken. Vaak zijn de combinaties van de       toetsen verschillend per interactie.
 
   2. Onderin bij de pagina van Rockstar Games kun je een taal aankiezen. Er is een keuze uit 13 talen voor de pagina. Eenmaal bij taal 13 was het voor mij lastig te begrijpen hoe je uit de tab kon om een taal te kiezen.
+
+  3. Je kan de cookies settings niet aanpassen via de screen reader. De screen reader leeft namelijk die link in de footer niet voor en is dus ook niet klikbaar voor mensen die daar afhankelijk van zijn.
+
+     
 
 
 </details>
