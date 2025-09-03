@@ -61,24 +61,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   1. Het is belangrijk om echt goed te luisteren naar wat de screen-reader zegt, anders mis je welke knoppen je moet inklikken om verder te gaan naar een ander scherm of op een knop te klikken. Vaak zijn de combinaties van de       toetsen verschillend per interactie.
 
-     <img src="readme-images/voice-over.png" width="375px"
+     <img src="readme-images/voice-over.png" width="375px">
 
   2. Onderin bij de pagina van Rockstar Games kun je een taal aankiezen. Er is een keuze uit 13 talen voor de pagina. Eenmaal bij taal 13 was het voor mij lastig te begrijpen hoe je uit de tab kon om een taal te kiezen.
 
-     <img src="readme-images/taal-kiezen.png" width="375px" 
+     <img src="readme-images/taal-kiezen.png" width="375px">
 
   3. Je kan de cookies settings niet aanpassen via de screen reader. De screen reader leeft namelijk die link in de footer niet voor en is dus ook niet klikbaar voor mensen die daar afhankelijk van zijn.
 
-     <img src="readme-images/cookies-settings.png" width="375px" 
+     <img src="readme-images/cookies-settings.png" width="375px">
 
   4. Bij de categorie links leest de voice-over niet altijd voor dat iets een video is, dus voornamelijk als je blind bent weet je niet dat je mogelijk op een video gaat klikken. Daarnaast begint de video gelijk als je erop         klikt. Dit kan beter aangegeven worden door op te lezen dat het een video is in plaats van simpelweg "link".
 
-     <img src="readme-images/video" width="375px"
+     <img src="readme-images/video" width="375px">
 
      
   5. Er is soms een mogelijkheid rechts bovenin om het menu over te slaan en gelijk door te gaan naar de content. Dit is wel fijn voor de gebruiker, alleen zie ik niet altijd wanneer deze optie tevoorschijn komt. Het is voor mij op het moment onduidelijk wanneer deze optie verschijnt.
 
-     <img src="readme-images/skip" width="375px"
+     <img src="readme-images/skip" width="375px">
 
      
 
