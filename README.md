@@ -41,11 +41,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Rockstar Games  
-  <img src="images/homepagina.png" width="375px" alt="Rockstar Games">
+  <img src="readme-images/homepagina.png" width="375px" alt="Rockstar Games">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Grand Theft Auto V  
-  <img src="images/grand-theft-auto-v.png" width="375px" alt="Grand Theft Auto V">
+  <img src="readme-images/grand-theft-auto-v.png" width="375px" alt="Grand Theft Auto V">
  
 </details>
 
