@@ -73,12 +73,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   4. Bij de categorie links leest de voice-over niet altijd voor dat iets een video is, dus voornamelijk als je blind bent weet je niet dat je mogelijk op een video gaat klikken. Daarnaast begint de video gelijk als je erop         klikt. Dit kan beter aangegeven worden door op te lezen dat het een video is in plaats van simpelweg "link".
 
-     <img src="readme-images/video" width="375px">
+     <img src="readme-images/video.png" width="375px">
 
      
   5. Er is soms een mogelijkheid rechts bovenin om het menu over te slaan en gelijk door te gaan naar de content. Dit is wel fijn voor de gebruiker, alleen zie ik niet altijd wanneer deze optie tevoorschijn komt. Het is voor mij op het moment onduidelijk wanneer deze optie verschijnt.
 
-     <img src="readme-images/skip" width="375px">
+     <img src="readme-images/skip.png" width="375px">
 
      
 
