@@ -40,12 +40,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <a href="https://www.rockstargames.com">website rockstargames</a>
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Rockstar Games  
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Rockstar Games">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Grand Theft Auto V  
+  <img src="readme-images/grand_theft_auto_v.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -58,6 +58,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+
+  1. Het is belangrijk om echt goed te luisteren naar wat de screen-reader zegt, anders mis je welke knoppen je moet inklikken om verder te gaan naar een ander scherm of op een knop te klikken. Vaak zijn de combinaties van de toetsen verschillend per interactie.
+
+  2. De
+
 
 </details>
 
