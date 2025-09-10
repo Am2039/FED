@@ -109,7 +109,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ Content die ik al kende in html en css gaan erg goed. Maar nieuwe theorie zoals een carasoul vind ik erg lastig en begrijp ik moeilijk. Dit zelfde geld voor een hamburger menu of werken met grid. (neem ook screenshots op van delen van je website en code)
 
 
   ### Agenda voor meeting
@@ -117,7 +117,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Amber      | Kevin         | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | Carasoul, pop-up die tevoorschijn komt, pop-up balk bovenaan die je weg kan klikken en buttons die aan de zijkant verticaal vast zitten.              | ...          | ...              |
+  |  Carasoul, uitschuivend hamburger menu. Als tijd over hamburger menu uitgebreider maken zoals gekozen website.| Carasoul, pop-up die tevoorschijn komt, pop-up balk bovenaan die je weg kan klikken en buttons die aan de zijkant verticaal vast zitten.              | ...          | ...              |
 
 
   ### Verslag van meeting
