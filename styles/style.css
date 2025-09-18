@@ -386,10 +386,10 @@ body.content-gtav a {
 	margin-bottom: 1em;
 }
 
-body.content-gtav main section {
+body.content-gtav main section:nth-of-type(1) {
 	color: white;
 	background: url('../images/achtergrond1.jpg') center/cover no-repeat;
- 	object-fit: cover; 
+	min-height: 100vh;
 }
 
 #vrijstaandeAfbeelding {
@@ -422,4 +422,43 @@ body.content-gtav main section p {
 	padding-top: 0.5em;
 	padding-bottom: 1em;
 	line-height: 1.8em;
+}
+
+body.content-gtav main section:nth-of-type(2) {
+	color: white;
+	background: url('../images/achtergrond2.jpg') center/cover no-repeat;
+	min-height: 100vh;
+	margin-bottom: 0;
+}
+
+#vrijstaandeAfbeelding2 {
+	width: 375px;
+	margin-top: 4em;
+}
+
+body.content-gtav main section:nth-of-type(2) img {
+	width: 97px;
+	align-self: center;
+	margin-bottom: 2em;
+}
+
+body.content-gtav main section:nth-of-type(3) h3{
+	font-size: 40px;
+}
+
+body.content-gtav main section:nth-of-type(3) img {
+	width: 311px;
+	border-radius: 8px;
+	align-self: center;
+	margin-bottom: 2em;
+}
+
+body.content-gtav main section:nth-of-type(4) p{
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(204, 204, 204);
+	border: 1px solid rgb(78, 78, 78);
+	border-radius: 10px;
+	margin: 2em;
+	margin-top: 0;
 }
