@@ -123,10 +123,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Toegankelijkheidstest moet wat uitgebreider (houdt checklist erbij)
+  - Voor knop talen kiezen kan gebruik maken van imput-type: select
+  - Zet de ul in de footer
+  - Kijk opnieuw naar alle H's
+  - "watch trailer" + regels onder kop newswire zijn een p
+  - Class bij features games in de selection tag doen niet in de ul
+  - Talen knop hoeft geen id te hebben want staat in footer
+  - Summery details kan gebruikt worden voor uitklapbare delen
 
 </details>
 
@@ -146,20 +150,27 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Amber     | Kevin          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | De manier hoe ik mijn html en css goed ga opmaken voor mijn tweede pagina. Of mijn css van mijn eerste pagina verbeterd kan worden.  | Een dropdown in een dropdown voor mijn navigatie. Als tijd over heb de juiste grootte gebruiken van mijn afbeeldingen voor toegankelijkheid.           | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+Homepagina
+  - Newswire is een section waar de ul + li in zitten
+  - H2 in de section van "features games"
+  - "view more" link moet in de section van "features games"
+  - "subscribe now" is een a href niet een button
+
+Tweede pagina
+  - Doe de class bij body tag bij main tag
+  - Footer moet in de body
+  - Linkjes (+ icons) in footer doorverwijzen naar andere pagina
+  - Kijk opnieuw naar alle H's
+  - Tekst onder features niet in section maar gewoon een losse p van maken
+  - Summary details zou gebruikt kunnen worden in hamburger menu.
 
 </details>
 
