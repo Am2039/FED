@@ -30,9 +30,11 @@
 /* jouw code */
 
 
+
 /****************/
 /* HOMEPAGE */
 /****************/
+
 
 body {
 	font-family: helvetica;
@@ -41,24 +43,125 @@ body {
 	background-color: black;
 	color: white;
 }
+
+.ham-menu {
+	height: 50px;
+	width: 50px;
+	position: relative;
+	z-index: 9999;
+}
+
+.off-screen-menu {
+	background-color: black;
+	height: 100vh;
+	width: 100%;
+	max-width: 450px;
+	position: fixed;
+	top: 0;
+	right: -450px;
+	display: flex;
+	flex-direction: column;
+	font-size: 3rem;
+	transition: .3s ease;
+	z-index: 9999;
+	padding-top: 1em;
+}
+
+.off-screen-menu.active {
+	right: 0;
+	background-color: black;
+}
   
 nav {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background-color: black;
 	margin: 1em;
+	justify-content: space-between; /* center all children (ham, logo, profile) */
 }
 
-nav button {
-	background: none;
-	border: none;
-	color: white;
-	font-size: 2em;
+.ham-menu span {
+	height: 2px;
+	width: 50%;
+	background: white;
+	border-radius: 16px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: .3s ease;
+}
+
+.ham-menu span:nth-child(1) {
+	top: 35%;
+}
+
+.ham-menu span:nth-child(3) {
+	top: 65%;
+}
+
+.ham-menu.active span:nth-child(1) {
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.ham-menu.active span:nth-child(2) {
+	opacity: 0;
+}
+
+.ham-menu.active span:nth-child(3) {
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.off-screen-menu ul {
+    list-style: none;
+	text-align: left;
+}
+
+.off-screen-menu a {
+    text-decoration: none;
+    color: white; 
+    font-size: 18px;
+	font-weight: bold;
 }
 
 nav img {
 	width: 32px;
+}
+
+.carousel {
+	position: relative;
+}
+
+.carousel__item {
+	font-size: 2em;
+	display: none;
+}
+
+.carousel__item--selected {
+	display: block;
+}
+
+.carousel__nav {
+	width: 100%;
+	padding: 20px 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+}
+
+.carousel__button {
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background: rgba(202, 202, 202, 0.2);
+	border-radius: 50%;
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+.carousel__button--selected {
+    background: white; /* active slide dot is white */
 }
 
 img {
@@ -77,13 +180,14 @@ img {
 	width: 1px;
 }
 
-#watch-trailer{
+.carouselTekst{
 	color: white;
 	font-size: 31px;
 	font-weight: normal;
 	margin: 0;
 	padding-left: 1em;
 	padding-bottom: 1em;
+	line-height: 1.3em;
 }
 
 section {
@@ -111,7 +215,7 @@ section h3{
 
 }
 
-section a {
+main section a {
 	font-size: 16px;
 	font-weight: 600;
 	color: white;
@@ -163,11 +267,10 @@ h3 time {
 	padding-left: 0.5em;
 }
 
-a {
+main a {
 	font-size: 16px;
 	color: white;
 	text-decoration: underline orange 5px;
-	border-radius: em;
 	display: flex;
 	justify-content: center;
 	padding: 1em;
@@ -311,7 +414,7 @@ select {
 	width: 187px;
 }
 
-body.content-gtav nav {
+main.content-gtav nav {
 	border-bottom: 0.5px solid #3a3a3a;
 	padding-bottom: 1.5em;
 }
@@ -344,11 +447,11 @@ article img:nth-of-type(2) {
 	justify-content: left;
 }
 
-body.content-gtav section img {
+main.content-gtav section img {
  width: 111px;
 }
 
-body.content-gtav h2 {
+main.content-gtav h2 {
 	font-size: 35px;
 	font-weight: bold;
 	font-family: "bebas-neue-pro", sans-serif;
@@ -358,7 +461,7 @@ body.content-gtav h2 {
 	margin-bottom: 0;
 }
 
-body.content-gtav p {
+main.content-gtav p {
 	font-size: 16px;
 	font-weight: lighter;
 	font-family: "Futura-Condensed", sans-serif;
@@ -369,7 +472,7 @@ body.content-gtav p {
 	line-height: 1.8em;
 }
 
-body.content-gtav a {
+main.content-gtav a {
 	font-size: 20px;
 	font-weight: lighter;
 	font-family: "bebas-neue-pro", sans-serif;
@@ -386,7 +489,7 @@ body.content-gtav a {
 	margin-bottom: 1em;
 }
 
-body.content-gtav main section:nth-of-type(1) {
+main.content-gtav section:nth-of-type(1) {
 	color: white;
 	background: url('../images/achtergrond1.jpg') center/cover no-repeat;
 	min-height: 100vh;
@@ -397,13 +500,13 @@ body.content-gtav main section:nth-of-type(1) {
 	margin-top: 4em;
 }
 
-body.content-gtav main section img {
+main.content-gtav section img {
 	width: 111px;
 	align-self: center;
 	margin: 1em;
 }
 
-body.content-gtav h3 {
+main.content-gtav h3 {
 	font-size: 48px;
 	font-weight: bold;
 	font-family: "bebas-neue-pro", sans-serif;
@@ -412,7 +515,7 @@ body.content-gtav h3 {
 	margin-bottom: 0;
 }
 
-body.content-gtav main section p {
+main.content-gtav section p {
 	color: white;
 	font-size: 16px;
 	font-weight: lighter;
@@ -424,7 +527,7 @@ body.content-gtav main section p {
 	line-height: 1.8em;
 }
 
-body.content-gtav main section:nth-of-type(2) {
+main.content-gtav section:nth-of-type(2) {
 	color: white;
 	background: url('../images/achtergrond2.jpg') center/cover no-repeat;
 	min-height: 100vh;
@@ -436,24 +539,24 @@ body.content-gtav main section:nth-of-type(2) {
 	margin-top: 4em;
 }
 
-body.content-gtav main section:nth-of-type(2) img {
+main.content-gtav section:nth-of-type(2) img {
 	width: 97px;
 	align-self: center;
 	margin-bottom: 2em;
 }
 
-body.content-gtav main section:nth-of-type(3) h3{
+main.content-gtav section:nth-of-type(3) h3{
 	font-size: 40px;
 }
 
-body.content-gtav main section:nth-of-type(3) img {
+main.content-gtav section:nth-of-type(3) img {
 	width: 311px;
 	border-radius: 8px;
 	align-self: center;
 	margin-bottom: 2em;
 }
 
-body.content-gtav main section:nth-of-type(4) p{
+main.content-gtav section:nth-of-type(4) p{
 	font-size: 16px;
 	font-weight: bold;
 	color: rgb(204, 204, 204);
