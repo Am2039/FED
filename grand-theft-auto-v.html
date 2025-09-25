@@ -11,17 +11,33 @@
 	
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.png">
+	<script src="scripts/script.js"></script>
 </head>
 
-<body class="content-gtav">
+<body 
 		<header>
 			<nav>
-				<button aria-hidden="true"><img src="https://assets.codepen.io/274456/ui-icon-hamburger.svg" alt="#"/></button>
-				<img id="gtav-logo-nav" src="images/grand-theft-auto-v-logo.svg" alt="GTAV logo in nav">
-				<img src="images/profile-icon.svg" alt="Profiel">
-		</nav>
+				<div class="off-screen-menu">
+					<ul>
+						<li><a href="#">Featured Games</a></li>
+						<li><a href="#">Newswire</a></li>
+						<li><a href="#">Videos</a></li>
+						<li><a href="#">Downloads</a></li>
+						<li><a href="#">Store</a></li>
+						<li><a href="#">Support</a></li>
+					</ul>
+		
+				</div>
+					<div class="ham-menu">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<img src="images/header_logo.svg" alt="Logo">
+					<img src="images/profile-icon.svg" alt="Profiel">
+				</nav>
 		</header>
-	<main>
+	<main class="content-gtav">
 		<article>
 			<img src="images/logo-gtav-stand.svg" alt="Staande gtav logo voor in main">
 			<img src="images/logo-gtav-online.svg" alt="GTAV ONLINE logo">

@@ -13,22 +13,70 @@
 </head>
 
 <body>
-		<header>
-			<nav>
-				<button aria-hidden="true"><img src="https://assets.codepen.io/274456/ui-icon-hamburger.svg" alt="" /></button>
-				<img src="images/header_logo.svg" alt="Logo">
-				<img src="images/profile-icon.svg" alt="Profiel">
+	<header>
+		<nav>
+		<div class="off-screen-menu">
+			<ul>
+				<li><a href="#">Featured Games</a></li>
+                <li><a href="#">Newswire</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">Downloads</a></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Support</a></li>
+			</ul>
+
+		</div>
+			<div class="ham-menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<img src="images/header_logo.svg" alt="Logo">
+			<img src="images/profile-icon.svg" alt="Profiel">
 		</nav>
-		</header>
+	</header>
 	<main>
 		<h1 class="visually-hidden">Homepage</h1>
-		<section>
-			<img src="images/global.jpg" alt="Homepage header">
-			<h2>Grand Theft Auto VI</h2>
-			<p id="watch-trailer">Watch Trailer 2 Now</p>
-			<a href="#">Learn more</a>
-		</section>
 
+		<div class="carousel">
+			<div class="carousel__item carousel__item--selected">
+				<section>
+					<img src="images/carousel.jpg" alt="Homepage header">
+					<h2>Grand Theft Auto VI</h2>
+					<p class="carouselTekst">Watch Trailer 2 Now</p>
+					<a href="#">Learn more</a>
+				</section>
+			</div>
+
+		<div class="carousel__item">
+			<section>
+				<img src="images/carousel2.jpg" alt="Afbeelding voor tweede carousel slide">
+				<h2>Grand Theft Auto Online</h2>
+				<p class="carouselTekst">Money Fronts Now Available</p>
+				<a href="#">Watch now</a>
+			</section>
+		</div>
+
+		<div class="carousel__item">
+			<section>
+			  <img src="images/carousel3.jpg" alt="Homepage header">
+			  <h2>Grand Theft Auto V</h2>
+			  <p class="carouselTekst">Experience the Best Version of GTAV and GTA Online on PC with GTAV Enhanced</p>
+			  <a href="#">Watch now</a>
+			</section>
+	  	</div>
+
+
+		<div class="carousel__item">
+			<section>
+			  <img src="images/carousel4.jpg" alt="Homepage header">
+			  <h2>Grand Theft Auto Online</h2>
+			  <p class="carouselTekst">Strange Tales of the West</p>
+			  <a href="#">Watch now</a>
+			</section>
+	  	</div>
+	</div>
+			
 			<h2>Newswire</h2>
 
 		<section class="homepage-sections">
@@ -74,8 +122,7 @@
 			<button>Subscribe Now</button>
 		</section>
 	</main>
-</body>
-
+	<script src="scripts/script.js"></script>
 <footer>
 	<div class="custom-select">
 		<select name="talen" id="taalKiezen">
@@ -131,6 +178,6 @@
 		<p>MCMXCVIII</p>
 	</section>
 </footer>
-
+</body>
 	
 </html>
