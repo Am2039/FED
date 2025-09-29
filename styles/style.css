@@ -44,6 +44,10 @@ body {
 	color: white;
 }
 
+ul {
+	padding: 0;
+}
+
 .ham-menu {
 	height: 50px;
 	width: 50px;
@@ -141,11 +145,36 @@ nav img {
 	display: block;
 }
 
+.carousel__item--selected h2 {
+	padding: 2.5em;
+    padding-bottom: 0;
+    font-weight: 550;
+    font-size: 12px;
+}
+
+
+.carousel__item--selected a{
+	font-size: 16px;
+	font-weight: 600;
+	color: white;
+	border: 2px solid white;
+	border-radius: 5px;
+	border-width: 1px;
+	text-decoration: none;
+	text-transform: uppercase; 
+	padding: 1em;   
+	padding-left: 6em;
+	padding-right: 6em;
+	margin: 2em;
+	margin-top: 0;
+	margin-bottom: 1em;
+	align-self: center;
+}
+
 .carousel__nav {
 	width: 100%;
 	padding: 20px 0;
 	position: absolute;
-	bottom: 0;
 	left: 0;
 	text-align: center;
 }
@@ -180,10 +209,10 @@ img {
 	width: 1px;
 }
 
-.carouselTekst{
+.carouselTekst p{
 	color: white;
-	font-size: 31px;
-	font-weight: normal;
+	font-size: 32px;
+	font-weight: bold;
 	margin: 0;
 	padding-left: 1em;
 	padding-bottom: 1em;
@@ -198,15 +227,6 @@ section {
 	padding-bottom: 2em;
 }
 
-
-section h2{
-	font-size: 12px;
-	padding-left: 2.5em;
-	padding-top: 2.5em;
-	font-weight: 400;
-
-}
-
 section h3{
 	font-size: 32px;
 	padding-left: 1em;
@@ -215,28 +235,20 @@ section h3{
 
 }
 
-main section a {
-	font-size: 16px;
-	font-weight: 600;
-	color: white;
-	border: 2px solid white;
-	border-radius: 5px;
-	border-width: 1px;
-	text-decoration: none;
-	text-transform: uppercase; 
-	padding: 1em;   
-	padding-left: 6em;
-	padding-right: 6em;
-	align-self: center;
-}
-
 h2 {
-	font-size: 24px;
-	padding-left: 1.2em;
+	padding: 2em;
+	padding-bottom: 0;
+	padding-left: 1.3em;
+	padding-top: 0;
 	font-weight: 550;
-
+	font-size: 24px;
 }
-.homepage-sections {
+
+.newswire {
+ 	margin-top: 4em;
+}
+
+.newswire li{
 	display: flex;
 	flex-direction: column;
 	border: 1px solid rgb(64, 64, 64);
@@ -247,14 +259,16 @@ h2 {
 	padding-bottom: 0;
 }
 
-.homepage-sections h3 {
+.newswire h3 {
 	font-size: 12px;
 	padding: 20px;
 	padding-bottom: 0;
 }
 
-.homepage-sections p {
-	font-size: 20px;
+.newswire p {
+	color: white;
+	font-size: 18px;
+	font-weight: bolder;
 	padding: 20px;
 	padding-bottom: 0;
 	padding-top: 0;
@@ -281,7 +295,7 @@ main a {
 	list-style: none;
 	padding: 2em;
 	padding-top: 0;
-	padding-bottom: 0;
+	padding-bottom: 2em;
 	margin-bottom: 0;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr); /* 2 columns */
@@ -324,7 +338,7 @@ section p {
 	line-height: 1.5em;
 }
 
-section button {
+.newsletter a {
 	display: flex;
 	align-self:flex-start;
 	padding: 1.9em;
@@ -405,20 +419,24 @@ select {
 	margin-top: 7em;
 }
 
+.custom-select {
+	text-align: left;
+}
+
 /****************/
 /* GRAND THEFT AUTO V */
 /****************/
 
 
-#gtav-logo-nav {
-	width: 187px;
+
+#logoGtav {
+	width: 230px;
 }
 
 main.content-gtav nav {
 	border-bottom: 0.5px solid #3a3a3a;
 	padding-bottom: 1.5em;
 }
-
 
 article {
 	height: 375px;
@@ -564,4 +582,370 @@ main.content-gtav section:nth-of-type(4) p{
 	border-radius: 10px;
 	margin: 2em;
 	margin-top: 0;
+}
+
+/****************/
+/* Deskstop */
+/****************/
+
+@media screen and (min-width: 770px) {
+	
+	.off-screen-menu ul { 
+		padding-left: 2em;
+	}
+
+	.off-screen-menu{ 
+		margin-top: 1.3em;
+	}
+	
+	.carousel__item section { /* image left, text right */
+		align-items: center;
+		text-align: left;
+		gap: 2rem;             /* spacing between img + text */
+	}
+
+	.carousel__nav {
+		text-align: left;
+		padding-left: 2em;
+	}
+
+	.carousel__item--selected a {
+		margin: 13em;
+		margin-left: 2em;
+		margin-right: 30em;
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-left: 0;
+		padding-right: 0;
+		align-items: left;
+	}
+
+	.carousel__item--selected h2 {
+		padding: 2.5em;
+		padding-bottom: 0;
+		font-weight: 550;
+		font-size: 15px;
+	}
+
+	.carouselTekst p {
+		font-size: 40px;
+	}
+
+	.carouselTekst a {
+		max-width: 12em;
+	}
+
+	.newswire li{
+        max-width: 301px;
+        margin: 1em;
+        margin-inline: 2.2em;
+	}
+
+	.newswire h2{
+        font-size: 30px;
+	}
+
+	.newswire ul{
+		margin: 1em;
+		align-items: center;
+	}
+
+	.newswire li{
+		align-items: center;
+	}
+
+
+	.newsletter {
+		text-align: center;
+		padding: 5em;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.newsletter img {
+		align-self: center;
+	}
+
+	.newsletter a {
+		align-self: center;
+	}
+
+	footer {
+		padding-left: 2em;
+	}
+
+	.custom-select {
+		text-align: right;
+		padding-right: 3em;
+	}
+
+	footer ul:nth-of-type(2) {
+		width: 500px;
+	}
+
+	footer ul:nth-of-type(2) img{
+		max-width: 18px;
+	}
+
+	footer section {
+		flex-direction: row;
+		justify-content: space-between;
+		padding-right: 2em;
+	}
+
+	#vrijstaandeAfbeelding {
+		width: 760px;
+	}
+
+	main.content-gtav section:nth-of-type(1) {
+		padding: 3em;
+	}
+
+	main.content-gtav section:nth-of-type(2) {
+		padding: 3em;
+	}
+
+	main.content-gtav section:nth-of-type(3) {
+		padding: 3em;
+	}
+
+	main.content-gtav section:nth-of-type(3) img{
+		width: 695px;
+	}
+
+	#vrijstaandeAfbeelding {
+		width: 900px;
+	}
+
+	#vrijstaandeAfbeelding2 {
+		width: 760px;
+	}
+}
+
+
+@media screen and (min-width: 1024px) {
+	
+
+	.ham-menu {
+		display: none;   /* hide hamburger on desktop */
+	}
+
+	.off-screen-menu {
+		position: static;   /* no more sliding in */
+    	height: auto;
+    	width: auto;
+    	background: none;
+   	 	display: flex;      /* now it's visible */
+    	margin: 0;
+	}
+
+	.off-screen-menu ul {    
+		display: flex;
+    	flex-direction: row;
+    	gap: 2rem;
+    	list-style: none;
+    	margin: 0;
+    	padding: 0;
+	}
+	.off-screen-menu a {
+		font-size: 16px;
+		font-weight: 600;
+		text-decoration: none;
+		color: white;
+	}
+
+	.carousel {
+		max-width: 1100px;
+	}
+
+
+	.carousel img {
+		width: 1000px;
+	}
+
+	.carouselTekst{
+		max-width: 700px
+	}
+
+	.carouselTekst p{
+		margin-right: 7em;
+	}
+
+	.carousel__item--selected {
+		display: flex;         /* override block ONLY for the active slide */
+		flex-direction: row;
+		align-items: center;
+		gap: 2rem;
+		align-items: flex-start;
+	}
+
+	.carousel__item--selected h2 {
+		font-size: 15px;
+	}
+	
+
+	.carousel__item--selected a {
+		width: 300px;
+		font-size: 20px;
+	}
+
+	
+
+	h2 {
+		font-size: 30px;
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: 3em;
+	}
+
+	.newswire ul{
+		display: flex;
+		align-items: stretch;
+		margin-top: 0;
+		margin-left: 5em;
+		align-self: center;
+		gap: 2em;
+	}
+
+	.newswire img{
+		width: 1000x;
+	}
+
+	.newswire h3{
+		align-self: flex-start;
+	}
+
+	.newswire li {
+		margin: 0.5em;
+		max-width: 100%;
+	}
+
+	main a {
+		font-size: 20px;
+	}
+
+	.featured-games ul {
+		grid-template-columns: repeat(4, 1fr);
+		padding-top: 0;
+		align-self: center;
+		max-width: 100%;
+		margin: 3em;
+	}
+
+	.featured-games img {
+		width: 100%;
+	}
+
+	article {
+		height: 800px;
+		background: linear-gradient(to right, rgba(0,0,0,0.9) 10%, rgba(0,0,0,0) 60%),
+		url('../images/header-img-gtav.jpg') center/cover no-repeat;
+		margin-bottom: 0;
+	}
+
+	section p {
+		padding-left: 17em;
+		padding-right: 17em;
+		font-size: 20px;
+	}
+
+	article img:nth-of-type(1) {
+		width: 140px;
+	}
+
+	article img:nth-of-type(2) {
+		width: 122px;
+	}
+
+	main.content-gtav section:nth-of-type(1){
+		padding-top: 15em;
+		display: flex;
+		flex-direction: row;
+	}
+	
+	main.content-gtav section:nth-of-type(1) h3{
+		display: flex;
+		flex-direction: row;
+	}
+
+	main.content-gtav section:nth-of-type(2) {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+
+	main.content-gtav section:nth-of-type(2) img{
+		align-self: flex-start;
+		width: 122px;
+	}
+
+	main.content-gtav section:nth-of-type(3){
+		display: flex;
+		flex-direction: row;
+	}
+
+	main.content-gtav section:nth-of-type(3) .sectionTekst{
+		padding: 5em;
+	}
+
+	main.content-gtav section:nth-of-type(3) h3{
+		font-size: 50px;
+	}
+	
+
+	.sectionTekst {
+		display: flex;
+		flex-direction: column;
+	}
+
+	main.content-gtav section p {
+		font-size: 20px;
+	}
+
+	main.content-gtav section h3 {
+		font-size: 60px;
+	}
+
+	main.content-gtav section img {
+		width: 140px;
+		align-self: flex-start;
+		margin-left: 2.5em;
+	}
+
+	main.content-gtav section:nth-of-type(4) p{
+		font-size: 20px;
+		text-align: center;
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
+
+	main.content-gtav section:nth-of-type(4) {
+		padding: 8em;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	
+	main.content-gtav h2 {
+		font-size: 50px;
+		padding-right: 24em;
+		padding-left: 1.3em;
+	}
+
+	main.content-gtav p {
+		font-size: 20px;
+		padding-left: 3em;
+		padding-right: 62em;
+	}
+
+	main.content-gtav a {
+		width: 250px;
+		margin: 0;
+	}
+
+	.knoppenInleiding {
+		display: flex;
+		gap: 1em;
+		margin-left: 3.8em;
+	}
+
 }
