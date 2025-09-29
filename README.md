@@ -92,13 +92,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
      <img src="readme-images/navigatie.png" width="375px">
 
-  9. De voice-over leest goed op wat voor lijst het is. Zoals hier zijn het iconen en dat wordt duidelijk aangetoont bij de voice-over.
+ 9. De voice-over leest goed op wat voor lijst het is. Zoals hier zijn het iconen en dat wordt duidelijk aangetoont bij de voice-over.
 
      <img src="readme-images/iconen.png" width="375px">
 
-  10. Wanneer je bij de footer bent, wordt dit duidelijk aangegeven voordat je pas bij de elementen in de footer kan. Dit is wel handig omdat de footer duidelijk een ander onderdeel is dan de rest op de pagina.
+10. Wanneer je bij de footer bent, wordt dit duidelijk aangegeven voordat je pas bij de elementen in de footer kan. Dit is wel handig omdat de footer duidelijk een ander onderdeel is dan de rest op de pagina.
 
-     <img src="readme-images/footer.png" width="375px">
+    <img src="readme-images/footer.png" width="375px">
+
+
 
      
 
