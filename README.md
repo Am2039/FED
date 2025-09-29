@@ -121,7 +121,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - Toegankelijkheidstest moet wat uitgebreider (houdt checklist erbij)
   - Voor knop talen kiezen kan gebruik maken van imput-type: select
@@ -144,7 +143,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Aan het kijken hoe ik het beste mijn css voor mijn tweede pagina kan stijlen. Mijn eerste pagina staat volledig opgebouwd in css, alleen hij is nog niet responsive en ik mis nog steeds een hamburger menu en werkend carousel.
 
 
   ### Agenda voor meeting
@@ -156,7 +155,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
 
 Homepagina
   - Newswire is een section waar de ul + li in zitten
@@ -198,29 +196,25 @@ Tweede pagina
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb beide pagina's gemaakt in css en html. Mijn carousel werkt ook en mijn hamburger menu werkt alleen op mijn eerste pagina, dit moet ik nog bijwerken. Ik ben op dit moment bezig met beide pagina's responsive maken. 
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Amber      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Mijn html en css bekijken voor beide pagina's of alles lukt. Kijken of ik dingen aan moet passen in mijn html om het beter te maken. Vragen of mijn hamburger menu uitgebreid genoeg is (want van gekozen site is uitgebreider).       | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  - Carousel divs weggewerkt worden naar ul en li.
+  - divs bij talen kunnen weg, de class kan in de select tag.
+  - werk de dingen van de vorige voortgangs gesprekken weer bij.
+  - Hamburger menu is uitgebreid genoeg, wel nog werkend maken op beide pagina's.
+  - Carousel op tweede pagina is optioneel, want ik heb er al 1 op eerste pagina.
 </details>
-
 
 
 
