@@ -100,6 +100,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
     <img src="readme-images/footer.png" width="375px">
 
+11. Er is geen h1 op deze website, waardoor je bij de voice-over gelijk een kopniveau 2 hoort en je niet weet wat dus de titel is van de pagina.
+
+    <img src="readme-images/h1.png" width="375px">
+
 
 
      
