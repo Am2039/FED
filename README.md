@@ -1,4 +1,4 @@
-# Procesverslag
+<img width="1792" height="1120" alt="carousel" src="https://github.com/user-attachments/assets/8521bac0-0df4-408a-925d-f509721968a6" /># Procesverslag
 Markdown is een simpele manier om HTML te schrijven.  
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
@@ -79,6 +79,26 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   5. Er is soms een mogelijkheid rechts bovenin om het menu over te slaan en gelijk door te gaan naar de content. Dit is wel fijn voor de gebruiker, alleen zie ik niet altijd wanneer deze optie tevoorschijn komt. Het is voor mij op het moment onduidelijk wanneer deze optie verschijnt.
 
      <img src="readme-images/skip.png" width="375px">
+
+  6. Als ik met de voice-over door de carousel ga, dan laat hij de tekst van de andere pagina's niet zien maar alleen de afbeeldingen. De tekst wordt hierdoor ook niet opgelezen, maar alleen de link binnen de afbeelding. En je zou dus niet goed weten waar het over gaat.
+
+     <img src="readme-images/carousel.png" width="375px">
+
+  7. De kopjes onder "newswire" worden opgelezen. Het kopje hieronder wordt opeens in een andere taal opgelezen. Dit is niet bepaald handig voor slechtziende mensen.
+
+     <img src="readme-images/andere-taal.png" width="375px">
+
+  8. Hij leest de navigatie als banner, wat naar mijn mening niet heel goed geformuleerd is want als je slechtziend bent is het woord "banner" niet heel duidelijk.
+
+     <img src="readme-images/navigatie.png" width="375px">
+
+  9. De voice-over leest goed op wat voor lijst het is. Zoals hier zijn het iconen en dat wordt duidelijk aangetoont bij de voice-over.
+
+     <img src="readme-images/iconen.png" width="375px">
+
+  10. Wanneer je bij de footer bent, wordt dit duidelijk aangegeven voordat je pas bij de elementen in de footer kan. Dit is wel handig omdat de footer duidelijk een ander onderdeel is dan de rest op de pagina.
+
+     <img src="readme-images/footer.png" width="375px">
 
      
 
