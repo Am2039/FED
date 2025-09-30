@@ -288,6 +288,8 @@ Tweede pagina
 
   ### Je uitkomst - karakteristiek screenshots:
   <img src="readme-images/sfeerbeeld1.png" width="375px" alt="Homepagina">
+
+  
   <img src="readme-images/sfeerbeeld2.png" width="375px" alt="gtav">
 
 
