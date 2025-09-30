@@ -105,6 +105,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
     <img src="readme-images/h1.png" width="375px">
 
 
+12. De website bevat geen light/darkmode optie. 
+
+
 
      
 
@@ -208,7 +211,34 @@ Tweede pagina
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+
+  1. De navigatie balk wordt goed opgelezen als navigatie. Dit is erg fijn want hierdoor kunnen mensen goed merken als ze bij de navigatie zijn.
+
+  <img src="readme-images/test-foto1" width="375px" alt="foto1">
+  
+  
+  2. De koppen van secties zoals "newswire" worden goed opgelezen, en is te merken of het een kopniveau 2 is..
+
+  <img src="readme-images/test-foto2" width="375px" alt="foto2">
+
+
+  3. De footer wordt opgelezen als voettekst en niet als footer zoals in de tag. Dit is niet erg, maar viel mij wel op.
+
+  <img src="readme-images/test-foto3" width="375px" alt="foto3">
+
+
+  4. De carousel wilt niet doorgaan naar andere slides. Hij gaat namelijk gelijk door naar beneden en niet naar een andere slide. Dit is wel jammer.
+
+  <img src="readme-images/test-foto4" width="375px" alt="foto4">
+
+
+  5. Het hamburgr menu doet het niet, maar de onderdelen in de lijst worden wel opgelezen.
+
+  <img src="readme-images/test-foto5" width="375px" alt="foto5">
+
+  6. Ondanks dat er op de officiele site geen h1 is, heb ik wel een h1 toegevoegd die opgelezen wordt. 
+
+  <img src="readme-images/test-foto6" width="375px" alt="foto6">
 
 </details>
 
