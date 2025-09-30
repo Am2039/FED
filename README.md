@@ -1,4 +1,4 @@
-#Procesverslag
+<img width="336" height="602" alt="bron1" src="https://github.com/user-attachments/assets/baf750df-3e72-4fb9-919c-3a2dd38034f4" />#Procesverslag
 Markdown is een simpele manier om HTML te schrijven.  
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
@@ -279,8 +279,79 @@ Tweede pagina
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+
+HOMEPAGE
+
+  1. <section class="featured-games">  
+    .featured-games ul
+    .featured-games ul li:first-child
+    .featured-games ul li 
+     Bron: ChatGPT - "I want my images to be like this. I have them in a ul. This is my html": <ul> <li><img src="images/featuredgames-1.jpg" alt="Grand Theft Auto VI"></li> <li><img src="images/featuredgames-2.jpg" alt="Grand Theft Auto V"></li> <li><img src="images/featuredgames-3.jpg" alt="Grand Theft Auto Online"></li> <li><img src="images/featuredgames-4.jpg" alt="Red Dead Redemption 2"></li> <li><img src="images/featuredgames-5.jpg" alt="Red Dead Redemption"></li>
+
+     "Why do the images not want any border radius?"
+
+ <img src="readme-images/bron1.png" width="375px" alt="bron1">
+
+   2. <footer>
+      <ul>
+      Bron: ChatGPT - "I have 4 ul in my footer and I want to style them all differently. I can't. use classes or divs or id's. How do I do it?"
+
+  3. <div class="custom-select">
+      Bron: ChatGPT - "How to use input type select?"
+      
+  4. <header>
+      Bron: geholpen door ELiza Wentzel en youtube tutorial: https://www.youtube.com/watch?v=aNDqzlAKmZc
+
+  5. <ul class="carousel">
+      Bron: ChatGPT - "Im following this yt video: https://www.youtube.com/watch?v=XtFlpgaLbZ4&t=66s. I will send my html, css and javascript right after the other, because mine doesn't work like in the video. I wanna know the issue."
+    
+    "It works. So now I want these items like this in the first carousel slide "content 1". <section> <img src="images/global.jpg" alt="Homepage header"> <h2>Grand Theft Auto VI</h2> <p id="watch-trailer">Watch Trailer 2 Now</p> <a href="#">Learn more</a> </section>"
+
+    "I don't see the 4 dots, I only see 1"
+
+    "How to get my slide im on the dot white?"
+
+  6. .ham-menu span {
+      Bron: ChatGPT - "How to reduce space between spans"
+
+     "How to reduce space between spans"
+
+     "<nav> <div class="off-screen-menu"> <ul> <li><a href="#">Featured Games</a></li> <li><a href="#">Newswire</a></li> <li><a href="#">Videos</a></li> <li><a href="#">Downloads</a></li> <li><a href="#">Store</a></li> <li><a href="#">Support</a></li> </ul> </div> <div class="ham-menu"> <span></span> <span></span> <span></span> </div> <img src="images/header_logo.svg" alt="Logo"> <img src="images/profile-icon.svg" alt="Profiel"> </nav>"
+  
+
+
+
+GRAND THEFT AUTO V
+
+  1. <main class="content-gtav">
+      Bron: ChatGPT - "how to make a class for a body"
+
+
+   2. <article>
+      article {
+     article img:nth-of-type(1) {
+      Bron: ChatGPT - "How can I make this in css? This is my html": <section> <img src="images/logo-gtav-stand.svg" alt="Staande gtav logo voor in main"> <img src="images/logo-gtav-online.svg" alt="GTAV ONLINE logo"> <h2>Now available for PlayStation 5, Xbox Series X|S, and PC</h2> <p>Experience entertainment blockbusters, Grand Theft Auto V and GTA Online.</p> <a href="#">Watch the trailer</a> <a href="#">Buy now</a> </section>
+
+       <img src="readme-images/bron2.png" width="375px" alt="bron1">
+
+       'this is my html': <article> <img src="images/logo-gtav-stand.svg" alt="Staande gtav logo voor in main"> <img src="images/logo-gtav-online.svg" alt="GTAV ONLINE logo"> <h2>Now available for PlayStation 5, Xbox Series X|S, and PC</h2> <p>Experience entertainment blockbusters, Grand Theft Auto V and GTA Online.</p> <a href="#">Watch the trailer</a> <a href="#">Buy now</a> </article>
+
+  3. <footer>
+      <ul>
+      Bron: ChatGPT - "I have 4 ul in my footer and I want to style them all differently. I can't. use classes or divs or id's. How do I do it?"
+
+  4. <div class="custom-select">
+      Bron: ChatGPT - "How to use input type select?"
+
+  5. #vrijstaandeAfbeelding {
+      Bron: ChatGPT - "I have a background image in my html. The img isn't shown in the right size. How do I fix this?"
+
+  6. <section>
+      Bron: ChatGPT - "this is my css: body.content-gtav main section { color: white; background: url('../images/achtergrond1.jpg') center/cover no-repeat; object-fit: cover; }"
+
+      
+
+      
+  
 
 </details>
