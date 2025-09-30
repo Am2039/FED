@@ -256,15 +256,29 @@ Tweede pagina
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb geleerd hoe ik een carousel kan maken in html, css en javascript. Dit wist ik nog niet en heb ik wel eventjes werk aan gehad. Ik ben tevreden met het eindresultaat. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/geleerd-carousel.png" width="375px" alt="carousel">
+
+
+   Daarnaast was werken met media queries ook nieuw voor mij. Hier had ik wel even over na gevraagd omdat het mij eerst niet lukte maar daarna ging het erg goed. 
+   
+
+   Ten slotte heb ik geleerd om een hamburger menu te maken. Dit lukte mij door hulp van meerdere bronnen. 
+
+  <img src="readme-images/hamburgermenu.png" width="375px" alt="hamburgermenu">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Ik vond het erg lastig om mijn navigatie voor deskstop te maken. Vaak dan stonden dingen door elkaar en kreeg ik het niet goed. Uiteindelijk heb ik hulp gevraagd en is het goed gelukt.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/navigatie.png" width="375px" alt="navigatie">
+</details>
+
+
+Ik heb 4 bolletjes waarmee je kan wisselen tussen de slides van de carousel. Het is mij niet gelukt om deze te verplaatsen bij het deskstop formaat. 
+
+  <img src="readme-images/dots.png" width="375px" alt="bolletjes">
 </details>
 
 
