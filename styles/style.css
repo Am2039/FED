@@ -15,8 +15,13 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text:white;
+	--color-text2: black;
+	--color-text3: gray;
+	--color-text4: rgb(200, 200, 200);
+	--color-background: black;
+	--color-background2: #ffa500;
+	--color-background3: white;
 }
 
 
@@ -40,8 +45,8 @@ body {
 	font-family: helvetica;
 	margin: 0;
 	padding: 0;
-	background-color: black;
-	color: white;
+	background-color: var(--color-background);
+	color: var(--color-text);
 }
 
 ul {
@@ -55,25 +60,70 @@ ul {
 	z-index: 9999;
 }
 
+
 .off-screen-menu {
-	background-color: black;
+	background-color: var(--color-background);
 	height: 100vh;
 	width: 100%;
-	max-width: 450px;
 	position: fixed;
 	top: 0;
-	right: -450px;
+	right: -1600px;
 	display: flex;
 	flex-direction: column;
 	font-size: 3rem;
 	transition: .3s ease;
 	z-index: 9999;
 	padding-top: 1em;
+	margin-top: 1.5em;
+}
+
+.desktop-menu{
+	display: flex;
+	flex-direction: row;
+}
+.desktop-menu ul{
+	display: flex;
+	flex-direction: row;
+	gap: 3em;
+	padding-top: 1em;
+	margin-top: 1.5em;
+	list-style: none;
+}
+
+.desktop-menu li{
+	display: flex;
+	flex-direction: row;
+}
+
+.desktop-menu li a{
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	color: var(--color-text);
+	align-items: center;
+	justify-content: center;
+}
+
+.desktop-menu > img{
+	margin-left: 9em;
+}
+
+.desktop-menu li a img{
+	height: 55%;
+	filter: invert(100%);
+}
+
+.desktop-menu li:last-child a{
+	text-decoration: none;
+	color: var(--color-text2);
+	background-color: var(--color-background2);
+	border-radius: 5px;
+	padding: 0.6em 1em;
 }
 
 .off-screen-menu.active {
 	right: 0;
-	background-color: black;
+	background-color: var(--color-background);
 }
   
 nav {
@@ -82,10 +132,11 @@ nav {
 	justify-content: space-between; /* center all children (ham, logo, profile) */
 }
 
+/* Bron: chatGPT) */
 .ham-menu span {
 	height: 2px;
 	width: 50%;
-	background: white;
+	background: var(--color-background3);
 	border-radius: 16px;
 	position: absolute;
 	top: 50%;
@@ -94,6 +145,7 @@ nav {
 	transition: .3s ease;
 }
 
+/* Bron: tutorial: https://www.youtube.com/watch?v=aNDqzlAKmZc */
 .ham-menu span:nth-child(1) {
 	top: 35%;
 }
@@ -119,11 +171,12 @@ nav {
 .off-screen-menu ul {
     list-style: none;
 	text-align: left;
+	padding-left: 1em;
 }
 
 .off-screen-menu a {
     text-decoration: none;
-    color: white; 
+    color: var(--color-text); 
     font-size: 18px;
 	font-weight: bold;
 }
@@ -136,15 +189,18 @@ nav img {
 	position: relative;
 }
 
+/* Bron: https://www.youtube.com/watch?v=XtFlpgaLbZ4&t=66s */
 .carousel__item {
 	font-size: 2em;
 	display: none;
 }
 
+/* Bron: https://www.youtube.com/watch?v=XtFlpgaLbZ4&t=66s */
 .carousel__item--selected {
 	display: block;
 }
 
+/* Bron: https://www.youtube.com/watch?v=XtFlpgaLbZ4&t=66s */
 .carousel__item--selected h2 {
 	padding: 2.5em;
     padding-bottom: 0;
@@ -152,12 +208,12 @@ nav img {
     font-size: 12px;
 }
 
-
+/* Bron: https://www.youtube.com/watch?v=XtFlpgaLbZ4&t=66s */
 .carousel__item--selected a{
 	font-size: 16px;
 	font-weight: 600;
-	color: white;
-	border: 2px solid white;
+	color: var(--color-text);
+	border: 2px solid var(--color-background3);
 	border-radius: 5px;
 	border-width: 1px;
 	text-decoration: none;
@@ -179,6 +235,7 @@ nav img {
 	text-align: center;
 }
 
+/* Bron: chatGPT*/
 .carousel__button {
 	width: 10px;
 	height: 10px;
@@ -189,8 +246,9 @@ nav img {
 	cursor: pointer;
 }
 
+/* Bron: chatGPT*/
 .carousel__button--selected {
-    background: white; /* active slide dot is white */
+    background: var(--color-background3);
 }
 
 img {
@@ -199,6 +257,7 @@ img {
 	display: block;   /* removes inline spacing issues */
 }
 
+/* Bron: https://www.a11yproject.com/posts/how-to-hide-content/. Mee gekregen in Teams kanaal.  */
 .visually-hidden {
 	clip: rect(0 0 0 0);
 	clip-path: inset(50%);
@@ -210,7 +269,7 @@ img {
 }
 
 .carouselTekst p{
-	color: white;
+	color: var(--color-text);
 	font-size: 32px;
 	font-weight: bold;
 	margin: 0;
@@ -266,7 +325,7 @@ h2 {
 }
 
 .newswire p {
-	color: white;
+	color: var(--color-text);
 	font-size: 18px;
 	font-weight: bolder;
 	padding: 20px;
@@ -276,21 +335,22 @@ h2 {
 }
 
 h3 time {
-	color: gray;
+	color: var(--color-text3);
 	font-size: 12px;
 	padding-left: 0.5em;
 }
 
 main a {
 	font-size: 16px;
-	color: white;
-	text-decoration: underline orange 5px;
+	color: var(--color-text);
+	text-decoration: underline orange 5px; /* Bron: ChatGPT */
 	display: flex;
 	justify-content: center;
 	padding: 1em;
 	padding-bottom: 2.5em;
 }
 
+/* Bron: chatGPT + eigen inbreng */
 .featured-games ul {
 	list-style: none;
 	padding: 2em;
@@ -303,13 +363,15 @@ main a {
 	max-width: 1200px;
 }
 
+/*  Bron: chatGPT */
 .featured-games ul li:first-child {
 	grid-column: 1 / -1;
 }
 
+/* Bron: ChatGPT */
 .featured-games ul li {
-	border-radius: 16px;
-	overflow: hidden;  /* ⬅️ this makes the img respect the rounded corners */
+	border-radius: 16px; 
+	overflow: hidden;  
 }
 
 #rockstarImage {
@@ -330,7 +392,7 @@ section h4 {
 section p {
 	font-size: 16px;
 	font-weight: lighter;
-	color: rgb(200, 200, 200);
+	color: var(--color-text4);
 	padding: 2em;
 	padding-bottom: 0;
 	margin-top: 0;
@@ -348,12 +410,13 @@ section p {
 	background-color: black;
 	font-size: 13px;
 	font-weight: bold;
-	color: rgb(201, 201, 201);
+	color: var(--color-text4);
 	text-decoration: none;
 	border: 1px solid rgb(176, 176, 176);
 	border-radius: 3em;
 }
 
+/* Bron: chatGPT */
 footer>ul:nth-of-type(1) {
 	display: flex;
 	flex-direction: column;
@@ -388,10 +451,11 @@ footer ul:nth-of-type(3) {
 	padding-bottom: 2em;
 }
 
+/* hulp van de docent */
 footer section p {
 	font-size: 14px;
 	font-weight: lighter;
-	color: rgb(161, 161, 161);
+	color: var(--color-text4);
 	align-self: center;
 	margin-bottom: 0;
 }
@@ -399,19 +463,20 @@ footer section p {
 footer section ul {
 	font-size: 14px;
 	font-weight: lighter;
-	color: rgb(161, 161, 161);
+	color: var(--color-text4);
 	align-self: center;
-	list-style: none;   /* remove bullets */
-	display: flex;      /* makes li's sit next to each other */
+	list-style: none;   /* Bron: ChatGPT */
+	display: flex;      /* Bron: ChatGPT */
 	gap: 1rem; 
 	padding: 1em;
 	padding-top: 0.8em;
 }
 
+/* Bron: ChatGPT */
 select {
-	background-color: black;
-	color: rgb(205, 205, 205);
-	border-color: black;
+	background-color: var(--color-background);
+	color: var(--color-text4);
+	border-color: var(--color-background);
 	font-size: 16px;
 	font-weight: bolder;
 	margin-left: 1.5em;
@@ -427,8 +492,6 @@ select {
 /* GRAND THEFT AUTO V */
 /****************/
 
-
-
 #logoGtav {
 	width: 230px;
 }
@@ -438,10 +501,11 @@ main.content-gtav nav {
 	padding-bottom: 1.5em;
 }
 
+/* Bron: chatGPT */
 article {
 	height: 375px;
 	justify-content: flex-end;
-	color: white;
+	color: var(--color-text);
 	background: linear-gradient(to top, rgba(0,0,0,0.9) 10%, rgba(0,0,0,0) 60%),
 	url('../images/header-img-gtav.jpg') center/cover no-repeat;
 	margin-bottom: 25em;
@@ -452,7 +516,7 @@ article img {
 	margin-top: 15em;
 }
 
-article img:nth-of-type(1) {
+article img:nth-of-type(1) { /* Bron: chatGPT */
 	width: 111px;
 	margin-left: 4em;
 	margin-right: 2em;
@@ -466,7 +530,7 @@ article img:nth-of-type(2) {
 }
 
 main.content-gtav section img {
- width: 111px;
+ 	width: 111px;
 }
 
 main.content-gtav h2 {
@@ -494,8 +558,8 @@ main.content-gtav a {
 	font-size: 20px;
 	font-weight: lighter;
 	font-family: "bebas-neue-pro", sans-serif;
-	color: white;
-	border: 2px solid white;
+	color: var(--color-text);
+	border: 2px solid var(--color-background3);
 	border-radius: 5px;
 	border-width: 1px;
 	text-decoration: none;
@@ -508,12 +572,12 @@ main.content-gtav a {
 }
 
 main.content-gtav section:nth-of-type(1) {
-	color: white;
+	color: var(--color-text);
 	background: url('../images/achtergrond1.jpg') center/cover no-repeat;
 	min-height: 100vh;
 }
 
-#vrijstaandeAfbeelding {
+#vrijstaandeAfbeelding { /* Bron: chatGPT */
 	width: 375px;
 	margin-top: 4em;
 }
@@ -534,7 +598,7 @@ main.content-gtav h3 {
 }
 
 main.content-gtav section p {
-	color: white;
+	color: var(--color-text);
 	font-size: 16px;
 	font-weight: lighter;
 	font-family: "Futura-Condensed", sans-serif;
@@ -546,13 +610,13 @@ main.content-gtav section p {
 }
 
 main.content-gtav section:nth-of-type(2) {
-	color: white;
+	color: var(--color-text);
 	background: url('../images/achtergrond2.jpg') center/cover no-repeat;
 	min-height: 100vh;
 	margin-bottom: 0;
 }
 
-#vrijstaandeAfbeelding2 {
+#vrijstaandeAfbeelding2 { 
 	width: 375px;
 	margin-top: 4em;
 }
@@ -577,7 +641,7 @@ main.content-gtav section:nth-of-type(3) img {
 main.content-gtav section:nth-of-type(4) p{
 	font-size: 16px;
 	font-weight: bold;
-	color: rgb(204, 204, 204);
+	color: var(--color-text4);
 	border: 1px solid rgb(78, 78, 78);
 	border-radius: 10px;
 	margin: 2em;
@@ -588,20 +652,37 @@ main.content-gtav section:nth-of-type(4) p{
 /* Deskstop */
 /****************/
 
+/* Bron: hulp van student assistent */
+
+@media screen and (max-width: 769px){
+	nav .desktop-menu{
+	display:none;
+	}
+}
+
 @media screen and (min-width: 770px) {
 	
+	.desktop-menu nav{
+		display:none;
+	}
+	
+	.off-screen-menu, .ham-menu{
+		display: none;
+	}
+
 	.off-screen-menu ul { 
 		padding-left: 2em;
 	}
 
 	.off-screen-menu{ 
 		margin-top: 1.3em;
+		right: -800px;
 	}
 	
-	.carousel__item section { /* image left, text right */
+	.carousel__item section { 
 		align-items: center;
 		text-align: left;
-		gap: 2rem;             /* spacing between img + text */
+		gap: 2rem;            
 	}
 
 	.carousel__nav {
@@ -617,7 +698,6 @@ main.content-gtav section:nth-of-type(4) p{
 		margin-bottom: 0;
 		padding-left: 0;
 		padding-right: 0;
-		align-items: left;
 	}
 
 	.carousel__item--selected h2 {
@@ -723,39 +803,16 @@ main.content-gtav section:nth-of-type(4) p{
 }
 
 
+
 @media screen and (min-width: 1024px) {
-	
 
-	.ham-menu {
-		display: none;   /* hide hamburger on desktop */
-	}
-
-	.off-screen-menu {
-		position: static;   /* no more sliding in */
-    	height: auto;
-    	width: auto;
-    	background: none;
-   	 	display: flex;      /* now it's visible */
-    	margin: 0;
-	}
-
-	.off-screen-menu ul {    
-		display: flex;
-    	flex-direction: row;
-    	gap: 2rem;
-    	list-style: none;
-    	margin: 0;
-    	padding: 0;
-	}
-	.off-screen-menu a {
-		font-size: 16px;
-		font-weight: 600;
-		text-decoration: none;
-		color: white;
+	.off-screen-menu{ 
+		margin-top: 1.3em;
+		right: -1024px;
 	}
 
 	.carousel {
-		max-width: 1100px;
+		max-width: 100%;
 	}
 
 
@@ -775,7 +832,6 @@ main.content-gtav section:nth-of-type(4) p{
 		display: flex;         /* override block ONLY for the active slide */
 		flex-direction: row;
 		align-items: center;
-		gap: 2rem;
 		align-items: flex-start;
 	}
 
@@ -788,8 +844,6 @@ main.content-gtav section:nth-of-type(4) p{
 		width: 300px;
 		font-size: 20px;
 	}
-
-	
 
 	h2 {
 		font-size: 30px;
@@ -805,10 +859,6 @@ main.content-gtav section:nth-of-type(4) p{
 		margin-left: 5em;
 		align-self: center;
 		gap: 2em;
-	}
-
-	.newswire img{
-		width: 1000x;
 	}
 
 	.newswire h3{
@@ -947,5 +997,150 @@ main.content-gtav section:nth-of-type(4) p{
 		gap: 1em;
 		margin-left: 3.8em;
 	}
+}
 
+@media (prefers-color-scheme: light) {
+	
+	.off-screen-menu {
+		right: -1800px;
+	}
+
+	.desktop-menu li:last-child a {
+		color: white;
+		background-color: black;
+	}
+
+	body {
+		background: #ffa500;
+	}
+	
+	main {
+	  background-color: white;
+	  color: black;
+	}
+
+	.carouselTekst p {
+		color: black;
+	}
+
+	.carousel__item--selected a {
+		color:black;
+		border-color:black;
+		background-color: #ffa500;
+	}
+
+	.carousel__button {
+		background:#ffc964;
+	}
+
+	.carousel__button--selected {
+		background: black;
+	}
+
+	h2 {
+		color: black;
+	}
+
+	h3 {
+		color: black;
+	}
+
+	main a {
+		color: black;
+	}
+
+	nav {
+		background: #ffa500;
+	}
+
+	.off-screen-menu.active {
+		background: #ffa500;
+	}
+
+
+	.off-screen-menu a {
+		color: black;
+	}
+
+	.newswire p {
+		color: black;
+	}
+
+	.featured-games li {
+		margin: 0;
+		background: none;
+	}
+
+	.newswire li {
+		border: 1px solid black;
+		background-color: #ffa500;
+		color: black;
+	}
+
+	h3 time {
+		color: rgb(75, 75, 75);
+	}
+
+	footer {
+		background: #ffa500;
+	}
+
+	footer li{
+		color: black;
+	}
+
+	footer section p{
+		color: black;
+	}
+
+	section p {
+		color: black;
+	}
+
+	select {
+		background-color: #ffa500;
+		border-color: #ffa500;
+		color: black;
+		margin-top: 2em;
+	}
+
+	#rockstarImage {
+		border: 1px solid rgb(176, 176, 176);
+		background-color: #ffc964;
+	}
+
+	.newsletter a {
+		background: #ffa500;
+		border-color: black;
+		color: black;
+		margin-bottom: 3em;
+	}
+
+	main.content-gtav h3 {
+		color: white;
+	}
+
+	main.content-gtav section:nth-of-type(3) h3 {
+		color: black;
+	}
+
+	main.content-gtav section:nth-of-type(3) p {
+		color: black;
+	}
+
+	main.content-gtav h2 {
+		color: white
+	}
+
+	main.content-gtav section:nth-of-type(4) p {
+		color: black;
+	}
+
+	article {
+		height: 100%;
+	}
+
+	.knoppenInleiding {
+		padding-bottom: 3em;
+	}
 }

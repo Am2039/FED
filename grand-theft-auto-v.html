@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 	
+<!--  Hierin staat de meta data -->
 <head>
 	<meta charset="UTF-8">
 	<meta name="author" content="Amber Baart">
@@ -14,29 +15,43 @@
 </head>
 
 <body>
+	<!--  Bron: Geholpen door ELiza Wentzel en youtube tutorial: https://www.youtube.com/watch?v=aNDqzlAKmZc -->
 	<header>
-			<nav>
-				<div class="off-screen-menu">
-					<ul>
-						<li><a href="#">Featured Games</a></li>
-						<li><a href="#">Newswire</a></li>
-						<li><a href="#">Videos</a></li>
-						<li><a href="#">Downloads</a></li>
-						<li><a href="#">Store</a></li>
-						<li><a href="#">Support</a></li>
-					</ul>
-		
-				</div>
-					<div class="ham-menu">
-						<span></span>
-						<span></span>
-						<span></span>
-					</div>
-					<img id="logoGtav" src="images/grand-theft-auto-v-logo.svg" alt="Logo">
-					<img src="images/profile-icon.svg" alt="Profiel">
-				</nav>
-		</header>
+		<!--  Dit stuk gaat over het hamburger menu voor mobiel en tablet -->
+		<nav>
+			<div class="ham-menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+
+			<img src="images/header_logo.svg" alt="Logo">
+
+			<div class="desktop-menu">
+				<ul>
+					<li><a href="#">Games</a></li>
+					<li><a href="#">Newswire</a></li>
+					<li><a href="#">Videos</a></li>
+					<li><a href="#">Downloads</a></li>
+					<li><a href="#">Store</a></li>
+					<li><a href="#">Support</a></li>
+					<li><a href="#"> Get Laucher</a></li>
+				</ul>
+
+				<img src="images/zoek.svg" alt="zoek icoon">
+			</div>
+			
+
+			<img src="images/profile-icon.svg" alt="Profiel">
+		</nav>
+	</header>
+
+	<!--  Bron: chatGPT -->
 	<main class="content-gtav">
+
+		<!--  Bron: https://www.a11yproject.com/posts/how-to-hide-content/. Mee gekregen in Teams kanaal.  -->
+		<h1 class="visually-hidden">Grand Theft Auto V</h1> <!--  Verbergt de h1 op de website -->
+
 		<article>
 			<img src="images/logo-gtav-stand.svg" alt="Staande gtav logo voor in main">
 			<img src="images/logo-gtav-online.svg" alt="GTAV ONLINE logo">
@@ -48,8 +63,10 @@
 			</div>
 		</article>
 
+		<!--  Bron: chatGPT  en student assistent  -->
 		<section>
-			<img id="vrijstaandeAfbeelding" src="images/karakters.png" alt="Vrijstaande afbeelding van main characters">
+			<!--  Bron: chatGPT -->
+			<img id="vrijstaandeAfbeelding" src="images/karakters.png" alt="Vrijstaande afbeelding van main characters"> <!--  Bron: chatGPT -->
 			<div class="sectionTekst">
 				<img src="images/logo-gtav-stand.svg" alt="GTA V logo">
 				<h3>Welcome to Los Santos</h3>
@@ -78,11 +95,11 @@
 					where you can rise from street-level hustler to become a kingpin of your own criminal empire.
 				</p>
 				<p>
-				Enjoy new high-performance vehicle upgrades and improvements like the Career Builder as well 
-				as all GTA Online gameplay upgrades, expansions, and content released since launch, ready to 
-				enjoy solo or with friends. Pull off daring co-operative Heists, enter adrenaline-fueled Stunt Races, 
-				compete in unique Adversary Modes, or hang out in social spaces including nightclubs, arcades, 
-				penthouse parties, car meetups, and much more.
+					Enjoy new high-performance vehicle upgrades and improvements like the Career Builder as well 
+					as all GTA Online gameplay upgrades, expansions, and content released since launch, ready to 
+					enjoy solo or with friends. Pull off daring co-operative Heists, enter adrenaline-fueled Stunt Races, 
+					compete in unique Adversary Modes, or hang out in social spaces including nightclubs, arcades, 
+					penthouse parties, car meetups, and much more.
 				</p>
 			</div>
 		</section>
@@ -98,16 +115,18 @@
 		</section>
 
 		<section>
+			<h2 class="visually-hidden">Homepage</h2>
 			<p>
 				All latest feature upgrades and improvements available for PlayStation 5, 
 				Xbox Series X|S, and the upgraded version of GTAV on PC only.
 			</p>
 		</section>
 	</main>
-
-
 	<footer>
+		<!--  Bron: ChatGPT-->
 		<div class="custom-select">
+
+			<!--  Dit is het uitklapbare menu voor de talen  -->
 			<select name="talen" id="taalKiezen">
 				<option value="engels">English</option>
 				<option value="duits">Deutsch</option>
@@ -125,6 +144,7 @@
 			</select>
 		</div>
 
+		<!--  Bron: chatGPT -->
 		<ul>
 			<li>Contact</li>
 			<li>Careers</li>
@@ -149,7 +169,9 @@
 			<li>Legal</li>
 			<li>Do Not Sell or Share My Personal Information</li>
 		</ul>
+		<!--  Bron: hulp van de docent-->
 		<section>
+			<h2 class="visually-hidden">Homepage</h2>
 			<p>Rockstar Games</p>
 			<ul>
 				<li>New York</li>
@@ -160,7 +182,6 @@
 			<p>MCMXCVIII</p>
 		</section>
 	</footer>
-	<script src="scripts/script.js"></script>
+	<script src="scripts/script.js"></script> <!--  Dit is de link voor javascript  -->
 </body>
-	
 </html>
