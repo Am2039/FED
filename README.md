@@ -375,6 +375,9 @@ HOMEPAGE
      "How to reduce space between spans"
 
      "<nav> <div class="off-screen-menu"> <ul> <li><a href="#">Featured Games</a></li> <li><a href="#">Newswire</a></li> <li><a href="#">Videos</a></li> <li><a href="#">Downloads</a></li> <li><a href="#">Store</a></li> <li><a href="#">Support</a></li> </ul> </div> <div class="ham-menu"> <span></span> <span></span> <span></span> </div> <img src="images/header_logo.svg" alt="Logo"> <img src="images/profile-icon.svg" alt="Profiel"> </nav>"
+
+  7. <time datetime="2025-08-28">August 28, 2025</time>
+      Bron: ChatGPT: "How do I style this time tag in css? <h2>Red Dead Online <time datetime="September 2, 2025"></time></h2>"
   
 
 
