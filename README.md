@@ -240,6 +240,12 @@ Tweede pagina
 
   <img src="readme-images/test-foto6.png" width="375px" alt="foto6">
 
+  7. Mijn website reageert nu op light/dark mode in tegenstelling tot de officiele website. Hij reageert ook in de inspect mode als ik de light of darkk mode aanklikt.
+
+  <img src="readme-images/test-foto7.png" width="375px" alt="foto7">
+  <img src="readme-images/test-foto8.png" width="375px" alt="foto8">
+  <img src="readme-images/test-foto9.png" width="375px" alt="foto9">
+
 </details>
 
 
