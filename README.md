@@ -258,7 +258,13 @@ Tweede pagina
   ### Dit ging goed/Heb ik geleerd: 
   Ik heb geleerd hoe ik een carousel kan maken in html, css en javascript. Dit wist ik nog niet en heb ik wel eventjes werk aan gehad. Ik ben tevreden met het eindresultaat. 
 
+
   <img src="readme-images/geleerd-carousel.png" width="375px" alt="carousel">
+
+Ook heb ik geleerd hoe je een light/dark mode maakt voor toegankelijkheid. Dit is ook goed gegaan en mooi geworden. 
+
+  <img src="readme-images/light-mode.png" width="375px" alt="carousel">
+   <img src="readme-images/dark-mode.png" width="375px" alt="carousel">
 
 
    Daarnaast was werken met media queries ook nieuw voor mij. Hier had ik wel even over na gevraagd omdat het mij eerst niet lukte maar daarna ging het erg goed. 
@@ -267,6 +273,8 @@ Tweede pagina
    Ten slotte heb ik geleerd om een hamburger menu te maken. Dit lukte mij door hulp van meerdere bronnen. 
 
   <img src="readme-images/hamburgermenu.png" width="375px" alt="hamburgermenu">
+
+
 
 
   ### Dit was lastig/Is niet gelukt:
