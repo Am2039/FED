@@ -90,7 +90,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   8. Hij leest de navigatie als banner, wat naar mijn mening niet heel goed geformuleerd is want als je slechtziend bent is het woord "banner" niet heel duidelijk.
 
-     <img src="readme-images/navigatie.png" width="375px">
+     <img src="readme-images/nav.png" width="375px">
 
  9. De voice-over leest goed op wat voor lijst het is. Zoals hier zijn het iconen en dat wordt duidelijk aangetoont bij de voice-over.
 
