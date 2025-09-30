@@ -287,7 +287,8 @@ Tweede pagina
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/sfeerbeeld1.png" width="375px" alt="Homepagina">
+  <img src="readme-images/sfeerbeeld2.png" width="375px" alt="gtav">
 
 
   ### Dit ging goed/Heb ik geleerd: 
